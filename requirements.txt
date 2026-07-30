@@ -1,0 +1,11 @@
+# GemCode V4 — Dependency list
+# Install: pip install -r requirements.txt
+
+# HTTP client for NVIDIA NIM API calls (model inference, model listing)
+# Used by: agentcli/nim_client.py
+requests==2.33.1
+
+# Rich terminal UI library — panels, tables, live streaming, markdown rendering
+# Used by: agentcli/main.py (all terminal output, slash command UIs, streaming display)
+rich==15.0.0
+

@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+outputs/
+Session_summaries/
+skills/custom/
+context-*.md
+.venv/
+venv/
